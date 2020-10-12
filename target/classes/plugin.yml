@@ -1,0 +1,28 @@
+name: Effect
+version: 1.1.1
+main: main.Main
+api-version: 1.16
+prefix: Effect
+authors: [BluBoy3ch0]
+description: Gui for Effects
+commands:
+  effects:
+    description: "Used to open a gui and select effects!"
+    permission: effects.command
+
+permissions:
+  effects.*:
+    description: Gives access to everything
+    children:
+      effects.command: true
+      effects.command.others: true
+
+  effects.command:
+    description: Gives access to effect command
+    default: true
+
+  effects.command.others:
+    description: Gives access to effects command for others
+    default: op
+    children:
+      effects.command: true
