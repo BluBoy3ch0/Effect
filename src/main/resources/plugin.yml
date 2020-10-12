@@ -20,9 +20,3 @@ permissions:
   effects.command:
     description: Gives access to effect command
     default: true
-
-  effects.command.others:
-    description: Gives access to effects command for others
-    default: op
-    children:
-      effects.command: true
