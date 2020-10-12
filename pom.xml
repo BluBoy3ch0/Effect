@@ -27,7 +27,6 @@
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
     </repositories>
-    <!--  this is what awokens told me to do, blame it all on awokens. negative. i have not. im used to eclipse mhm. -->
     <dependencies>
         <dependency>
             <groupId>org.spigotmc</groupId>
